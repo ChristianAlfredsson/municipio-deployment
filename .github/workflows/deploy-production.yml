@@ -3,7 +3,8 @@ name: Build and deploy production.
 on:
   workflow_dispatch:
   push:
-    branches: [production]
+    branches:
+      - master
     paths-ignore:
       - .github/**
 
